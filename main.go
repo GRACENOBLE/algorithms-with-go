@@ -1,11 +1,13 @@
 package main
 
+// "github.com/GRACENOBLE/algorithms-with-go/sorting"
 import (
 	"fmt"
 
-	"github.com/GRACENOBLE/algorithms-with-go/sorting"
+	"github.com/GRACENOBLE/algorithms-with-go/substrings"
 )
 
 func main() {
-	fmt.Println(sorting.InsertionSort([]int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1}))
+	count := substrings.CountVowelSubstrings("cuaieuouac")
+	fmt.Printf("The count is : %v", count)
 }
